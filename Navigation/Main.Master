@@ -12,10 +12,17 @@
     <form id="form1" runat="server">
         <div>
         //Menu
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
         //BreadCrums
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
             </asp:ContentPlaceHolder>
             //Footer
+            <br />
+            <br />
+            <div>Footer</div>
         </div>
     </form>
 </body>
