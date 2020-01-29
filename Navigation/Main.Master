@@ -11,8 +11,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+        //Menu
+        //BreadCrums
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
+            //Footer
         </div>
     </form>
 </body>
